@@ -1,3 +1,20 @@
+#My notes
+#I've deviated somewhat from the original instructions
+#Here are the changes I've made:
+
+#Used dbt Cloud instead of dbt Core
+#Used Snowflake instead of DuckDB
+#Created sources for the tables in the src__lego.yml file and referenced those sources in the models
+#Changed the name of ch01_sql_script.sql to spill_the_dbt_ch01.sql
+
+
+
+
+
+
+
+
+#Below is the original text of the instructions, as provided by wjsutton
 # Spill the dbt Challenge 01: Lego Data Analysis
 
 ## Objective

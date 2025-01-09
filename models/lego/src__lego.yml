@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: lego
+    database: til_portfolio_projects  
+    schema: staging
+    tables:
+      - name: lego_parts
+      - name: lego_inventory_parts
+      - name: lego_inventories
+      - name: lego_sets
+      - name: lego_themes
