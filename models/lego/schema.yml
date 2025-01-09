@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: spill_the_dbt_ch01
+    columns:
+      - name: theme_name
+        data_tests:
+          - not_null
+      - name: set_name
+        data_tests:
+          - not_null
+      - name: set_year
+        data_tests:
+          - not_null
